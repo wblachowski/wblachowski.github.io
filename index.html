@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Wojciech Blachowski</title>
-    <script src="assets/libs/three.r92.min.js"></script>
-    <script src="assets/libs/vanta.net.min.js"></script>
+    <script src="assets/libs/p5.min.js"></script>
+    <script src="assets/libs/vanta.topology.min.js"></script>
     <script src="assets/libs/svg-inject.min.js"></script>
     <link rel="stylesheet" href="assets/styles/reset.css">
     <link rel="stylesheet" href="assets/styles/theme.css">
@@ -34,9 +34,17 @@
     </main>
 </body>
 <script>
-VANTA.NET({
+VANTA.TOPOLOGY({
   el: "body",
-  color: 0x5d5578
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0x066454,
+  backgroundColor: 0x0d1117
 })
 </script>
 
