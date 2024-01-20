@@ -3,4 +3,5 @@
 A personal website.
 
 ## Running
-`docker compose up`
+1. Put the SSL certificate and key in `server.crt` and `server.key` 
+2. Run `docker compose up`
